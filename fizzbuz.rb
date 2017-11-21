@@ -1,12 +1,11 @@
 for i in 1..100
-if i%3==0&&i%5==0
-puts "FizzBuzz\n"
+if i%3==0&&i%5==0 then
+puts "FizzBuzz"
 elsif i%3==0
-puts "Fizz\n"
+puts "Fizz"
 elsif i%5==0
-puts "Buzz\n"
+puts "Buzz"
 else
-puts "%d\n",i
+puts i
 end
-
-
+end
